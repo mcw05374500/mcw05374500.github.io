@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>wdzjm</title>
-    
-    <style>
-        img{
-            width:400px
-        }
-        img.a{
-            width:300px
-        }
-     </style>   
-</head>
-<body>
-    <h1>hello world！！！</h1>
-<a href="http://www.baidu.com" target="-blank">baidu<br></a>
-    <img src="images/02.jpg" width="25%"><br>
-    <img img class="a" src="images/03.jpg">
-    <p>美丽的阿里山</P>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/my.css">
 
+</head>
+
+<body>
+     <div class="header">
+<h1>hello world</h1>
+    <p>美丽的阿里山</P>
+    </div>
+     <div class="row">
+        <div class="col-md-6">
+            <img src="images/02.jpg" width="100%"></div>
+        <div class="col-md-6">
+            <img img class="a" src="images/03.jpg" width="100%"></div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 main">
+                <table border=1>
+                    <tr>
+
+                        <th>名字</th>
+                        <th>学号</th>
+                        <th>成绩</th>
+                    </tr>
+                    <tr>
+                        <td>黃毛</td>
+                        <td>s001</td>
+                        <td>59</td>
+                    </tr>
+                     <tr>
+                        <td>小智</td>
+                        <td>s002</td>
+                        <td>60</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6 sidebar">
+
+                <a class="btn btn-danger" href="http://www.baidu.com" target="_blank">baidu</a>
+                <a class="btn btn-danger" href="https://www.youtube.com/?gl=TW&hl=zh-tw" target="_blank">youtube</a>
+                <a class="btn btn-danger" href="http://www.google.com" target="_blank">google</a>
+                <a class="btn btn-danger" href="https://www.mcu.edu.tw/student/new-query/Default.asp" target="_blank">mingchuan</a>
+                <br>
+                <p>
+                    About Me
+                </p>
+            </div>
+        </div>
+    </div>
+   
 
 
 </body>
+
 </html>

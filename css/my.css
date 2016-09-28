@@ -1,0 +1,14 @@
+.header {
+    background-color: 	#FFD700;
+    text-align: center;
+}
+.main {
+    background-color: #AAA;
+}
+.sidebar {
+    background-color: 	#DEB887;
+}
+.footer {
+    background-color:  #D3ECF5;
+    height: 200px;
+}
