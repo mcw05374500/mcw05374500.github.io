@@ -51,5 +51,8 @@ $('button').bind('click',function(){
         $('rect').eq(2).attr('x',1).attr('y',20).attr('width',50).attr('height',100);
         $('rect').eq(3).attr('x',201).attr('y',20).attr('width',50).attr('height',100);
          $('#a').animate({left:'+=50px'});
+         $('#a').animate({top:'+=50px'});
+          $('#a').animate({top:'-=50px'});
+
 }
 )
