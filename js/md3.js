@@ -44,6 +44,7 @@ $d.bind('click', function() {
 
         $('rect').eq(2).attr('width',100).attr('height',50);
          $('rect').eq(3).attr('width',100).attr('height',50);
+        
     })
 
     
